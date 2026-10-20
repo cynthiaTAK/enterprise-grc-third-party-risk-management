@@ -1,3 +1,9 @@
+## GRC Risk Dashboard
+
+The dashboard displays simulated vendor risk assessments, compliance evidence gaps, and remediation tracking for a fictional healthcare technology organization.
+
+![Enterprise GRC and Third-Party Risk Dashboard](grc-dashboard.png.jpeg)
+
 # Enterprise GRC & Third-Party Risk Management Program
 
 **Portfolio project | Python automation | Vendor risk | NIST controls | Remediation tracking | Audit readiness**
@@ -46,8 +52,6 @@ docs/                 Questionnaire, control mapping, RACI, walkthrough
 ## Security and privacy
 Do not commit real PHI, PII, contracts, credentials, confidential audit evidence, vendor reports or proprietary risk findings. This sample dashboard is a local static file with no authentication and is not designed to host sensitive production data.
 
-## Interview talking points
-See [`docs/project_walkthrough.md`](docs/project_walkthrough.md).
 
-## Resume-ready description (only after personally reviewing and running the project)
+Project Summary description (only after personally reviewing and running the project)
 **Enterprise GRC & Third-Party Risk Management Program — Portfolio Project:** Developed a Python-based simulated vendor-risk workflow to score inherent risk, track remediation and evidence gaps, and generate KPI dashboards and JSON reports; documented a third-party assessment questionnaire, NIST control mapping, and risk escalation process.
