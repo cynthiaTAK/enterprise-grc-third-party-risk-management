@@ -1,0 +1,6 @@
+finding_id,vendor_id,control_id,description,severity,status,due_date,owner,evidence_reference,exception_approved
+F001,V001,AC-2,Quarterly access review evidence not provided,High,Open,2026-11-01,Security,EV-001,No
+F002,V002,CA-2,SOC 2 report expired,Medium,In Progress,2026-11-15,Compliance,EV-002,No
+F003,V003,IA-2,Multi-factor authentication disabled for administrators,Critical,Open,2026-10-15,IT,EV-003,No
+F004,V004,SR-6,Business associate agreement pending,High,Open,2026-10-25,Privacy,EV-004,No
+F005,V001,CP-9,Backup restoration exercise documented,Low,Closed,2026-10-01,Security,EV-005,No

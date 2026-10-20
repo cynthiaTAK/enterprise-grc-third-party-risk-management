@@ -1,0 +1,162 @@
+{
+  "as_of": "2026-10-19",
+  "summary": {
+    "vendors_assessed": 4,
+    "high_or_critical_inherent_risk": 3,
+    "open_findings": 4,
+    "overdue_findings": 1,
+    "phi_vendors_without_signed_baa": 1,
+    "missing_or_expired_soc2": 2
+  },
+  "risk_tiers": {
+    "Critical": 1,
+    "Medium": 1,
+    "High": 2
+  },
+  "vendors": [
+    {
+      "vendor_id": "V001",
+      "vendor_name": "Northstar Imaging Cloud",
+      "service": "Image storage",
+      "data_classification": "Restricted",
+      "phi_access": "Yes",
+      "criticality": "Critical",
+      "inherent_likelihood": "4",
+      "inherent_impact": "5",
+      "soc2_status": "Current",
+      "baa_status": "Signed",
+      "mfa_status": "Enabled",
+      "assessment_date": "2026-10-01",
+      "owner": "Security",
+      "score": 20,
+      "tier": "Critical"
+    },
+    {
+      "vendor_id": "V002",
+      "vendor_name": "ClearPath Analytics",
+      "service": "Operational analytics",
+      "data_classification": "Internal",
+      "phi_access": "No",
+      "criticality": "Medium",
+      "inherent_likelihood": "3",
+      "inherent_impact": "3",
+      "soc2_status": "Expired",
+      "baa_status": "Not required",
+      "mfa_status": "Enabled",
+      "assessment_date": "2026-09-15",
+      "owner": "IT",
+      "score": 9,
+      "tier": "Medium"
+    },
+    {
+      "vendor_id": "V003",
+      "vendor_name": "Harbor Support Desk",
+      "service": "Support ticketing",
+      "data_classification": "Confidential",
+      "phi_access": "No",
+      "criticality": "High",
+      "inherent_likelihood": "3",
+      "inherent_impact": "4",
+      "soc2_status": "Current",
+      "baa_status": "Not required",
+      "mfa_status": "Disabled",
+      "assessment_date": "2026-10-05",
+      "owner": "Operations",
+      "score": 12,
+      "tier": "High"
+    },
+    {
+      "vendor_id": "V004",
+      "vendor_name": "Evergreen Telehealth",
+      "service": "Clinical communications",
+      "data_classification": "Restricted",
+      "phi_access": "Yes",
+      "criticality": "High",
+      "inherent_likelihood": "4",
+      "inherent_impact": "4",
+      "soc2_status": "Missing",
+      "baa_status": "Pending",
+      "mfa_status": "Enabled",
+      "assessment_date": "2026-10-10",
+      "owner": "Privacy",
+      "score": 16,
+      "tier": "High"
+    }
+  ],
+  "overdue_findings": [
+    {
+      "finding_id": "F003",
+      "vendor_id": "V003",
+      "control_id": "IA-2",
+      "description": "Multi-factor authentication disabled for administrators",
+      "severity": "Critical",
+      "status": "Open",
+      "due_date": "2026-10-15",
+      "owner": "IT",
+      "evidence_reference": "EV-003",
+      "exception_approved": "No"
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "F001",
+      "vendor_id": "V001",
+      "control_id": "AC-2",
+      "description": "Quarterly access review evidence not provided",
+      "severity": "High",
+      "status": "Open",
+      "due_date": "2026-11-01",
+      "owner": "Security",
+      "evidence_reference": "EV-001",
+      "exception_approved": "No"
+    },
+    {
+      "finding_id": "F002",
+      "vendor_id": "V002",
+      "control_id": "CA-2",
+      "description": "SOC 2 report expired",
+      "severity": "Medium",
+      "status": "In Progress",
+      "due_date": "2026-11-15",
+      "owner": "Compliance",
+      "evidence_reference": "EV-002",
+      "exception_approved": "No"
+    },
+    {
+      "finding_id": "F003",
+      "vendor_id": "V003",
+      "control_id": "IA-2",
+      "description": "Multi-factor authentication disabled for administrators",
+      "severity": "Critical",
+      "status": "Open",
+      "due_date": "2026-10-15",
+      "owner": "IT",
+      "evidence_reference": "EV-003",
+      "exception_approved": "No"
+    },
+    {
+      "finding_id": "F004",
+      "vendor_id": "V004",
+      "control_id": "SR-6",
+      "description": "Business associate agreement pending",
+      "severity": "High",
+      "status": "Open",
+      "due_date": "2026-10-25",
+      "owner": "Privacy",
+      "evidence_reference": "EV-004",
+      "exception_approved": "No"
+    },
+    {
+      "finding_id": "F005",
+      "vendor_id": "V001",
+      "control_id": "CP-9",
+      "description": "Backup restoration exercise documented",
+      "severity": "Low",
+      "status": "Closed",
+      "due_date": "2026-10-01",
+      "owner": "Security",
+      "evidence_reference": "EV-005",
+      "exception_approved": "No"
+    }
+  ]
+}

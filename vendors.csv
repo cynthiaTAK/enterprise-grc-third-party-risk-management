@@ -1,0 +1,5 @@
+vendor_id,vendor_name,service,data_classification,phi_access,criticality,inherent_likelihood,inherent_impact,soc2_status,baa_status,mfa_status,assessment_date,owner
+V001,Northstar Imaging Cloud,Image storage,Restricted,Yes,Critical,4,5,Current,Signed,Enabled,2026-10-01,Security
+V002,ClearPath Analytics,Operational analytics,Internal,No,Medium,3,3,Expired,Not required,Enabled,2026-09-15,IT
+V003,Harbor Support Desk,Support ticketing,Confidential,No,High,3,4,Current,Not required,Disabled,2026-10-05,Operations
+V004,Evergreen Telehealth,Clinical communications,Restricted,Yes,High,4,4,Missing,Pending,Enabled,2026-10-10,Privacy
