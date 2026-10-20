@@ -1,14 +1,15 @@
+# Enterprise GRC & Third-Party Risk Management Program
+
+**Portfolio project | Python automation | Vendor risk | NIST controls | Remediation tracking | Audit readiness**
+
+A simulated governance, risk and compliance workflow for a fictional healthcare technology organization. Inspired by common security and third-party risk management responsibilities, not affiliated with any employer. **All vendors, evidence IDs, and findings are synthetic.**
+
 ## GRC Risk Dashboard
 
 The dashboard displays simulated vendor risk assessments, compliance evidence gaps, and remediation tracking for a fictional healthcare technology organization.
 
 ![Enterprise GRC and Third-Party Risk Dashboard](grc-dashboard.png.jpeg)
 
-# Enterprise GRC & Third-Party Risk Management Program
-
-**Portfolio project | Python automation | Vendor risk | NIST controls | Remediation tracking | Audit readiness**
-
-A simulated governance, risk and compliance workflow for a fictional healthcare technology organization. Inspired by common security and third-party risk management responsibilities, not affiliated with any employer. **All vendors, evidence IDs, and findings are synthetic.**
 
 ## Features
 - Third-party intake register with data classification, PHI access, business criticality, evidence status, and ownership
